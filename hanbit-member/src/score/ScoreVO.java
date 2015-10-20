@@ -18,7 +18,7 @@ public class ScoreVO implements SQL, Serializable{
 
 	@Override
 	public String insert() {
-		// TODO Auto-generated method stub
+		String query = "insert into score values(score_seq.nextval,?,?...)";
 		return null;
 	}
 

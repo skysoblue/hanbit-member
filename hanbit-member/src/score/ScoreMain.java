@@ -14,6 +14,8 @@ public class ScoreMain {
 
 			switch (scanner.nextInt()) {
 			case 1:
+			//	ID 가 존재해야만 성적 입력이 가능함 !!!
+			// 존재하지 않으면 본교 학생이 아닙니다. 메시지 보여주세요	
 				System.out.println("학번,이름,국어,영어,수학");
 			//	scanner.next(), scanner.next(), scanner.nextInt(), scanner.nextInt(), scanner.nextInt()
 				
@@ -24,6 +26,7 @@ public class ScoreMain {
 				break;
 			case 3:
 				System.out.println("ID 을 입력해 주세요");
+				// ID 가 존재해야만 성적 검색이 가능함 !!!
 				String userid = scanner.next();
 				System.out.println(service.searchByUserid(userid));
 				break;
