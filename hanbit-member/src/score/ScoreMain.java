@@ -16,7 +16,7 @@ public class ScoreMain {
 			case 1:
 			//	ID 가 존재해야만 성적 입력이 가능함 !!!
 			// 존재하지 않으면 본교 학생이 아닙니다. 메시지 보여주세요	
-				System.out.println("학번,이름,국어,영어,수학");
+				System.out.println("아이디,자바,JSP,...");
 			//	scanner.next(), scanner.next(), scanner.nextInt(), scanner.nextInt(), scanner.nextInt()
 				
 				service.input(score);
