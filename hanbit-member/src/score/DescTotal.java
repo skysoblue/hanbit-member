@@ -12,7 +12,7 @@ public class DescTotal implements Comparator<ScoreVO>{
 	@Override
 	public int compare(ScoreVO front, ScoreVO back) {
 		
-		return (front.getTotal() > back.getTotal()) ? -1 : front.getTotal() < back.getTotal() ?  1 : 0;
+		return 0;
 				
 						
 		/**

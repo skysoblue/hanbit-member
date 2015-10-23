@@ -12,7 +12,7 @@ public class AscName implements Comparator<ScoreVO>{
 	@Override
 	public int compare(ScoreVO front, ScoreVO back) {
 		
-		return front.getUserid().compareTo(back.getUserid());
+		return 0;
 		/**
 		 * 뒤에 파라미터에 있는 앞글자와 비교해서
 		 * 앞글자가 먼저 나오는 글자라면 그 글자부터 리터해라
