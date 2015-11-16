@@ -23,6 +23,7 @@ public class HanbitCom {
 		MemberService service = MemberServiceImpl.getInstance();
 		List<MemberVO> list = new ArrayList<MemberVO>();
 		MemberVO m = new MemberVO();
+		MemberVO.getInstance().property = "톰";
 		while (true) {
 			System.out.println("1 : 회원가입  2: 로그인  3:총회원수 4:ID검색  "
 					+ "5:조건검색 6:회원정보수정 7:전체회원정보 9:회원탈퇴  10:종료");

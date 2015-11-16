@@ -18,6 +18,13 @@ public class MemberVO implements Serializable, SQL{
 	private String addr; // 주소
 	private String regdate; // 등록일
 	private String profile; // 프로필사진
+	public String property;
+	
+	public static MemberVO instance = new MemberVO();
+	public static MemberVO getInstance(){
+		return instance;
+	}
+	
 	
 	public MemberVO() {
 		// TODO Auto-generated constructor stub

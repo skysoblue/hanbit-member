@@ -8,7 +8,7 @@ public class MemberServiceImpl implements MemberService{
 	public static MemberService getInstance() {
 		return instance;
 	} 
-	MemberDAO dao = new MemberDAO();
+	MemberDAO dao = MemberDAO.getInstance();
 	/**
 	 * DML
 	 */
